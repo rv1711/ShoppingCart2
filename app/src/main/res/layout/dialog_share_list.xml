@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abrv0765.shoppingcart.AddListDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/share_list"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Email"
+            />
+        <Button
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:elevation="16dp"
+
+            android:text="Submit"
+            android:layout_gravity="end"
+            android:id="@+id/share_list_btn"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
